@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Stock Management Suite" duration-ms="6573" started-at="2021-09-28T07:09:51 IST" finished-at="2021-09-28T07:09:58 IST">
+    <groups>
+    </groups>
+    <test name="Add Stock Test" duration-ms="6573" started-at="2021-09-28T07:09:51 IST" finished-at="2021-09-28T07:09:58 IST">
+      <class name="testcases.suite.stock.AddStockTest">
+        <test-method status="PASS" signature="befTest(org.testng.ITestContext)[pri:0, instance:testcases.suite.stock.AddStockTest@158d2680]" name="befTest" is-config="true" duration-ms="123" started-at="2021-09-28T07:09:51 IST" finished-at="2021-09-28T07:09:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75d4a5c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.suite.stock.AddStockTest@158d2680]" name="init" is-config="true" duration-ms="1345" started-at="2021-09-28T07:09:52 IST" finished-at="2021-09-28T07:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="addStockTest()[pri:0, instance:testcases.suite.stock.AddStockTest@158d2680]" name="addStockTest" duration-ms="29" started-at="2021-09-28T07:09:53 IST" finished-at="2021-09-28T07:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStockTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.suite.stock.AddStockTest@158d2680]" name="quit" is-config="true" duration-ms="4790" started-at="2021-09-28T07:09:53 IST" finished-at="2021-09-28T07:09:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:testcases.suite.stock.AddStockTest@158d2680]" name="endSession" is-config="true" duration-ms="2" started-at="2021-09-28T07:09:58 IST" finished-at="2021-09-28T07:09:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- testcases.suite.stock.AddStockTest -->
+    </test> <!-- Add Stock Test -->
+  </suite> <!-- Stock Management Suite -->
+  <suite name="Portfolio Suite" duration-ms="71328" started-at="2021-09-28T07:09:51 IST" finished-at="2021-09-28T07:11:03 IST">
+    <groups>
+    </groups>
+    <test name="Create Portfolio Test" duration-ms="71328" started-at="2021-09-28T07:09:51 IST" finished-at="2021-09-28T07:11:03 IST">
+      <class name="testcases.suite.portfolio.CreatePortfolioTest">
+        <test-method status="PASS" signature="befTest(org.testng.ITestContext)[pri:0, instance:testcases.suite.portfolio.CreatePortfolioTest@6e171cd7]" name="befTest" is-config="true" duration-ms="116" started-at="2021-09-28T07:09:51 IST" finished-at="2021-09-28T07:09:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@274c3b80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.suite.portfolio.CreatePortfolioTest@6e171cd7]" name="init" is-config="true" duration-ms="839" started-at="2021-09-28T07:09:52 IST" finished-at="2021-09-28T07:09:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="createPortFolio(org.testng.ITestContext, java.util.Map)[pri:0, instance:testcases.suite.portfolio.CreatePortfolioTest@6e171cd7]" name="createPortFolio" duration-ms="68263" started-at="2021-09-28T07:09:53 IST" data-provider="portFolioSuite" finished-at="2021-09-28T07:11:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@274c3b80]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{Runmode=Y, PortfolioName=Portfolio29292, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortFolio -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.suite.portfolio.CreatePortfolioTest@6e171cd7]" name="quit" is-config="true" duration-ms="698" started-at="2021-09-28T07:11:01 IST" finished-at="2021-09-28T07:11:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.suite.portfolio.CreatePortfolioTest@6e171cd7]" name="init" is-config="true" duration-ms="61" started-at="2021-09-28T07:11:02 IST" finished-at="2021-09-28T07:11:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="createPortFolio(org.testng.ITestContext, java.util.Map)[pri:0, instance:testcases.suite.portfolio.CreatePortfolioTest@6e171cd7]" name="createPortFolio" duration-ms="18" started-at="2021-09-28T07:11:02 IST" data-provider="portFolioSuite" finished-at="2021-09-28T07:11:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@274c3b80]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{Runmode=N, PortfolioName=Portfolio981918, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test as Runmode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test as Runmode is N
+at com.qtpselenium.core.keywords.UtilityKeywords.skip(UtilityKeywords.java:117)
+at testcases.suite.portfolio.CreatePortfolioTest.createPortFolio(CreatePortfolioTest.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortFolio -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.suite.portfolio.CreatePortfolioTest@6e171cd7]" name="quit" is-config="true" duration-ms="243" started-at="2021-09-28T07:11:02 IST" finished-at="2021-09-28T07:11:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.suite.portfolio.CreatePortfolioTest@6e171cd7]" name="init" is-config="true" duration-ms="4" started-at="2021-09-28T07:11:03 IST" finished-at="2021-09-28T07:11:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="createPortFolio(org.testng.ITestContext, java.util.Map)[pri:0, instance:testcases.suite.portfolio.CreatePortfolioTest@6e171cd7]" name="createPortFolio" duration-ms="3" started-at="2021-09-28T07:11:03 IST" data-provider="portFolioSuite" finished-at="2021-09-28T07:11:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@274c3b80]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{Runmode=N, PortfolioName=Portfolio13422, Browser=Edge}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test as Runmode is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test as Runmode is N
+at com.qtpselenium.core.keywords.UtilityKeywords.skip(UtilityKeywords.java:117)
+at testcases.suite.portfolio.CreatePortfolioTest.createPortFolio(CreatePortfolioTest.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortFolio -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.suite.portfolio.CreatePortfolioTest@6e171cd7]" name="quit" is-config="true" duration-ms="232" started-at="2021-09-28T07:11:03 IST" finished-at="2021-09-28T07:11:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:testcases.suite.portfolio.CreatePortfolioTest@6e171cd7]" name="endSession" is-config="true" duration-ms="2" started-at="2021-09-28T07:11:03 IST" finished-at="2021-09-28T07:11:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- testcases.suite.portfolio.CreatePortfolioTest -->
+    </test> <!-- Create Portfolio Test -->
+  </suite> <!-- Portfolio Suite -->
+</testng-results>
